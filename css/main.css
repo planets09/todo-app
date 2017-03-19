@@ -1,0 +1,54 @@
+/*font-family: 'Shadows Into Light Two', cursive;
+font-family: 'Black Ops One', cursive;*/
+
+
+body {
+	background-image: url(../images/pencil.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	font-family: 'Black Ops One', cursive;
+	font-size: 65px;
+	color: #A31919;
+	text-transform: uppercase;
+}
+
+input {
+	width: 40%;
+	padding: 18px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+.container {
+	text-align: center;
+	display: block;
+	padding-top: 70px;
+}
+
+/*li {
+	text-align: left;
+}
+*/
+.btn-primary {
+	background-color: #A31919;
+	font-family: 'Shadows Into Light Two', cursive;
+	color: white;
+	font-size: 25px;
+	border-radius: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+	margin-left: 15px;
+}
+
+
+#date, #display-list {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 30px;
+	color: #000000;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
