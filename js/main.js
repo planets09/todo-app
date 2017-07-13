@@ -6,8 +6,10 @@ function clear(evt){
 
 
 function strike(evt){
+	console.log(evt);
 	var element = evt.target,
-		x = document.createElement('SPAN');
+	x = document.createElement('SPAN');
+	console.log(element);
 	element.onclick = "";
 	element.style.textDecoration = "line-through";
 	x.classList.add('glyphicon');
